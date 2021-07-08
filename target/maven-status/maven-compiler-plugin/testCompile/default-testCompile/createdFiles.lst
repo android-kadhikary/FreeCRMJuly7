@@ -1,0 +1,9 @@
+com\crm\qa\testcases\ContactPageTest.class
+SeleniumFramework\Automation\AppTest.class
+com\crm\qa\testcases\HomePageTest.class
+com\crm\qa\testcases\AmazonHomePageTest.class
+com\crm\qa\testcases\AmazonLoginPageTest.class
+com\crm\qa\testcases\AmazonFrontPageTest.class
+com\crm\qa\testcases\FrontPageTest.class
+com\crm\qa\testcases\CreateNewContactPageTest.class
+com\crm\qa\testcases\LoginPageTest.class

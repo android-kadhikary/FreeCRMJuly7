@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Freecrm Practice Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="FreeCRM(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.AmazonFrontPageTest">
+        <methods>
+          <include name="cleanBrowser"/>
+          <include name="setup"/>
+          <include name="goTologinPageTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.AmazonFrontPageTest -->
+    </classes>
+  </test> <!-- FreeCRM(failed) -->
+</suite> <!-- Failed suite [Freecrm Practice Suite] -->

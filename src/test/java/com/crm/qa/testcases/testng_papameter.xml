@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Freecrm Practice Suite">
+  <test name="FreeCRM">
+      <parameter name="nameParameter" value="Angsu Dutta"/>
+      <classes> <!--  class from where the above parameters will be accessed  -->
+     <!--  <class name="com.crm.qa.testcases.ContactPageTest"/>  -->
+     
+      </classes>
+  </test> <!-- Test --> 
+</suite> <!-- Suite -->

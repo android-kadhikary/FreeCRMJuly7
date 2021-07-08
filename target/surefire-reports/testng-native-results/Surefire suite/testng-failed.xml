@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.crm.qa.testcases.ContactPageTest">
+        <methods>
+          <include name="cleanBrowser"/>
+          <include name="selectContactByNameWithParameterTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.ContactPageTest -->
+      <class name="com.crm.qa.testcases.CreateNewContactPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="cleanBrowser"/>
+          <include name="createNewContactBy_defaultDataProviderTest" invocation-numbers="0"/>
+          <include name="selectContactByNameWithParameterTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.CreateNewContactPageTest -->
+      <class name="com.crm.qa.testcases.AmazonHomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="cleanBrowser"/>
+          <include name="validateUserVisibleNameTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.AmazonHomePageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

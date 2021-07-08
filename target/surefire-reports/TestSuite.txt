@@ -1,0 +1,54 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 5, Errors: 0, Skipped: 4, Time elapsed: 44.163 s <<< FAILURE! - in TestSuite
+selectContactByNameWithParameterTest(com.crm.qa.testcases.ContactPageTest)  Time elapsed: 0.265 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'nameParameter' is required by @Test on method selectContactByNameWithParameterTest but has not been marked @Optional or defined
+
+
+createNewContactBy_defaultDataProviderTest(com.crm.qa.testcases.CreateNewContactPageTest)  Time elapsed: 15.157 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"*[name='first_name']"}
+  (Session info: chrome=91.0.4472.124)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-AT3C0P3H', ip: '192.168.1.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:49514}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 34382c5949c7126c62f860347450fb0c
+*** Element info: {Using=name, value=first_name}
+	at com.crm.qa.testcases.CreateNewContactPageTest.createNewContactBy_defaultDataProviderTest(CreateNewContactPageTest.java:125)
+
+setup(com.crm.qa.testcases.CreateNewContactPageTest)  Time elapsed: 18.378 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.124)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-AT3C0P3H', ip: '192.168.1.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:60072}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2c2e23d98df1126d6b1f3dc8d81df0f
+	at com.crm.qa.testcases.CreateNewContactPageTest.setup(CreateNewContactPageTest.java:49)
+
+selectContactByNameWithParameterTest(com.crm.qa.testcases.CreateNewContactPageTest)  Time elapsed: 18.379 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'nameParameter' is required by @Test on method selectContactByNameWithParameterTest but has not been marked @Optional or defined
+
+
+setup(com.crm.qa.testcases.AmazonHomePageTest)  Time elapsed: 36.305 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#nav\-link\-accountList\-nav\-line\-1"}
+  (Session info: chrome=91.0.4472.124)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-AT3C0P3H', ip: '192.168.1.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:59003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9446c0b19c238bc62a9998c4e9bbfc73
+*** Element info: {Using=id, value=nav-link-accountList-nav-line-1}
+	at com.crm.qa.testcases.AmazonHomePageTest.setup(AmazonHomePageTest.java:40)
+
